@@ -3,3 +3,7 @@ mod p2;
 mod p664;
 mod p3007;
 mod p3;
+mod p4;
+mod p476;
+mod P3133;
+mod p1707;
