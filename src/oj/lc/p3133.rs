@@ -1,4 +1,5 @@
-struct Solution {}
+struct Solution;
+
 impl Solution {
     pub fn min_end(n: i32, x: i32) -> i64 {
         let mut n = (n - 1) as i64;

@@ -1,4 +1,4 @@
-struct Solution {}
+struct Solution;
 
 impl Solution {
     pub fn strange_printer(s: String) -> i32 {
