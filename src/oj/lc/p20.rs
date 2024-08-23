@@ -10,11 +10,12 @@ impl Solution {
         map.insert('}', '{');
         let mut stk = vec![];
         for &c in s {
-            if let Some(mat) = map.get(&(c as char)) {
-                if stk.is_empty() || stk.last().unwrap() != mat {
+            if let Some(&mat) = map.get(&(c as char)) {
+                if matches!(stk.last(), Some(&top) if top == mat) {
+                    stk.pop();
+                } else {
                     return false;
                 }
-                stk.pop();
             } else {
                 stk.push(c as char);
             }
