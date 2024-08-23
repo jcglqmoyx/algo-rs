@@ -8,3 +8,6 @@ mod p476;
 mod p3133;
 mod p1707;
 mod p4_2;
+mod p592;
+mod p9;
+mod p20;
