@@ -8,7 +8,7 @@ impl Solution {
             p[c as usize - 'a' as usize] = i;
         }
         for (i, &c) in t.as_bytes().iter().enumerate() {
-            res += i32::abs((i - p[c as usize - 'a' as usize]) as i32);
+            res += ((i - p[c as usize - 'a' as usize]) as i32).abs();
         }
         res
     }
