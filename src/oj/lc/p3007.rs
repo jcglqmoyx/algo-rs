@@ -4,7 +4,7 @@ impl Solution {
     pub fn find_maximum_number(k: i64, x: i32) -> i64 {
         let x = x as usize;
         let mut l = 1;
-        let mut r = k << x as usize;
+        let mut r = k << x;
         let check = |mut mid| {
             let mut cnt = 0;
             let mut v = vec![];
