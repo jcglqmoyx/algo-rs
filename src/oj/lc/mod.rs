@@ -12,3 +12,4 @@ mod p592;
 mod p9;
 mod p20;
 mod p3146;
+mod p564;
