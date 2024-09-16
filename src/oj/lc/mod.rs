@@ -17,3 +17,5 @@ mod p7;
 mod p907;
 mod p10;
 mod p1367;
+mod p287;
+mod p260;
