@@ -28,3 +28,5 @@ mod p1671;
 mod p2463;
 mod p1957;
 mod p2490;
+mod p638;
+mod p796;

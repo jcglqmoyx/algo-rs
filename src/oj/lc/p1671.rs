@@ -23,7 +23,7 @@ impl Solution {
         v.clear();
         let mut res = n as i32;
         for i in (0..n).rev() {
-            let mut ri = 0;
+            let ri;
             if idx == 0 || nums[i] > v[idx - 1] {
                 v.push(nums[i]);
                 idx += 1;
