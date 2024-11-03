@@ -3,7 +3,7 @@ use std::cmp::min;
 struct Solution;
 
 impl Solution {
-    pub fn minimum_total_distance(mut robot: Vec<i32>, factory: Vec<Vec<i32>>) -> i64 {
+    pub fn minimum_total_distance(robot: Vec<i32>, factory: Vec<Vec<i32>>) -> i64 {
         let n = robot.len();
         let m = factory.len();
         let mut robot = robot;
