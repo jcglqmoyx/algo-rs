@@ -37,3 +37,4 @@ mod P3163;
 mod P3222;
 mod p2914;
 mod p3011;
+mod p2275;
